@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.border{
+    border: 1px solid red;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+}
+
+header{
+    grid-column: 2/5;
+
+}
+
+sidebar{
+    grid-row: 1/5;
+}
+
